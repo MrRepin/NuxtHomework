@@ -1,5 +1,5 @@
 <template>
   <div>
-    Edit post
+    Edit
   </div>
 </template>

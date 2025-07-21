@@ -1,0 +1,31 @@
+:root {
+    /* Fonts */
+    --font-primary: "DM Sans", sans-serif;;
+    --font-size-default: 10px;
+
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
+    /* Colors */
+    --color-black: #000;
+    --color-white: #fff;
+    --color-grey-light: #707070;
+
+    /* Radius */
+    --radius-default: 4px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: var(--font-size-default);
+}
+
+body {
+    font-family: var(--font-primary), serif;
+    font-size: 1.6rem;
+}
