@@ -4,10 +4,20 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   components: true,
 
+  icon: {
+    customCollections: [
+      {
+        prefix: 'homework',
+        dir: './assets/images/icons',
+      },
+    ],
+  },
+
   modules: [
     '@nuxt/eslint',
     '@nuxt/fonts',
     '@nuxt/image',
-    '@nuxt/scripts'
+    '@nuxt/scripts',
+    '@nuxt/icon'
   ]
 })
