@@ -9,7 +9,7 @@
         4 дня назад
       </span>
     </div>
-    <NuxtLink to="/" :class="$style.title">
+    <NuxtLink to="/posts/1" :class="$style.title">
       Добавить функцию голосования
     </NuxtLink>
     <p :class="$style.preview">
