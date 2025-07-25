@@ -13,6 +13,19 @@ export default defineNuxtConfig({
     ],
   },
 
+  fonts: {
+    defaults: {
+      weights: [300, 400, 500, 600, 700],
+    }
+  },
+
+  app: {
+    pageTransition: {
+      name: 'page',
+      mode: 'out-in',
+    },
+  },
+
   modules: [
     '@nuxt/eslint',
     '@nuxt/fonts',

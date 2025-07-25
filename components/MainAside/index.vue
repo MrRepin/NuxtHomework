@@ -22,10 +22,15 @@
   align-items: center;
   justify-content: space-between;
   height: 100%;
+  color: var(--color-grey-light);
 }
 
 .activeLink {
-  color: var(--color-grey-light);
+  color: var(--color-black);
+
+  &:hover {
+    color: var(--color-black);
+  }
 }
 
 .widget {

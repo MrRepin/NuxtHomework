@@ -1,5 +1,5 @@
 <template>
   <div>
-    Post
+    Post 1
   </div>
 </template>

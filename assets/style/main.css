@@ -1,8 +1,10 @@
 :root {
     /* Fonts */
-    --font-primary: "DM Sans", sans-serif;;
+    --font-primary: "Roboto", sans-serif;;
     --font-size-default: 10px;
 
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
     --font-weight-medium: 500;
     --font-weight-bold: 700;
 
@@ -10,6 +12,7 @@
     --color-black: #000;
     --color-white: #fff;
     --color-grey-light: #707070;
+    --color-grey-lighter: #E6E6E6;
 
     /* Radius */
     --radius-default: 4px;
