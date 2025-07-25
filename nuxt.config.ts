@@ -13,6 +13,12 @@ export default defineNuxtConfig({
     ],
   },
 
+  fonts: {
+    defaults: {
+      weights: [300, 400, 500, 600, 700],
+    }
+  },
+
   modules: [
     '@nuxt/eslint',
     '@nuxt/fonts',
